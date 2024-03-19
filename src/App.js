@@ -7,6 +7,9 @@ import Nav from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
 import Error from "./components/pages/error/Error";
 import Gavino from "./components/pages/gavino/Gavino";
+import Caranay from "./components/pages/caranay/caranay";
+import Domingo from "./components/pages/domingo/Domingo";
+import Bautista from "./components/pages/bautista/Bautista";
 
 import './App.css';
 import Enciso from "./components/pages/enciso/Enciso";
@@ -24,7 +27,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Template />}>
             <Route path="/gavino" element={<Gavino/>}/>
+<<<<<<< HEAD
             <Route path="/enciso" element={<Enciso/>}/>
+=======
+<<<<<<< HEAD
+            <Route path="/caranay" element={<Caranay/>}/>
+=======
+            <Route path="/domingo" element={<Domingo />} />
+            <Route path="/bautista" element={<Bautista/>}/>
+>>>>>>> b79d267c47987cfa5f05e6a0d9db454765c7ea7b
+>>>>>>> eb50d331579cca50863d0614c01d618a0dbebb50
 
             {/* Copy and paste this -> "<Route path="/surname" element={<Surname/>}/>" change surname to your own surname */}
 
