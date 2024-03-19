@@ -9,6 +9,7 @@ import Error from "./components/pages/error/Error";
 import Gavino from "./components/pages/gavino/Gavino";
 
 import './App.css';
+import Enciso from "./components/pages/enciso/Enciso";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Template />}>
             <Route path="/gavino" element={<Gavino/>}/>
+            <Route path="/enciso" element={<Enciso/>}/>
 
             {/* Copy and paste this -> "<Route path="/surname" element={<Surname/>}/>" change surname to your own surname */}
 
