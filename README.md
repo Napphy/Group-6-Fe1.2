@@ -5,5 +5,3 @@
 ### `npm start`
 # lesson2
 # Group-6-Fe1.2
-# Group-6-Fe1.2
-# Group-6-Fe1.2
